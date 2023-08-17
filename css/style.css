@@ -6,11 +6,37 @@
 
 
 
+/* SERVICIOS */
+
+/* Penal */
+.heroBannerPenal {
+ 
+  height: 50px;
+  width: 100%;
+  height: 60vh; /* Set the height you prefer */
+  background-image: url("../img/servicios/heroBanner_penal.jpg");
+
+ 
+ 
+}
+
+.tituloPenal {
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  left: 50%;
+  bottom: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
 
 /* Footer */
 
-
-  
   .footerArea {
     background-color: black;
     color: #fff;
