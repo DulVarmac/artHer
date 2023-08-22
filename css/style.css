@@ -1,8 +1,17 @@
 /* navBar */
 
-.navbar-nav .nav-link  {
-    color:#b68d2c;
+.navbar-nav .nav-link {
+  color: #d19c1f;
+
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+
+
 }
+
+
+
 
 
 
@@ -10,14 +19,15 @@
 
 /* Penal */
 .heroBannerPenal {
- 
+
   height: 50px;
   width: 100%;
-  height: 60vh; /* Set the height you prefer */
+  height: 60vh;
+  /* Set the height you prefer */
   background-image: url("../img/servicios/heroBanner_penal.jpg");
 
- 
- 
+
+
 }
 
 .tituloPenal {
@@ -37,44 +47,297 @@
 
 /* Footer */
 
-  .footerArea {
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    padding: 12px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  .footerArea ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .footerArea li {
-    margin: 0 15px;
-  }
-  
-  .footerArea a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s;
-  }
-  
-  .footerArea a:hover {
-    color:#b68d2c;
-  }
-  
+.footerArea {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.footerArea ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footerArea li {
+  margin: 0 15px;
+}
+
+.footerArea a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footerArea a:hover {
+  color: #b68d2c;
+}
 
 
 
-  /* Medias */
+/*Contacto*/
 
-  @media (min-width: 768px) {
-    .carouselExampleCaptions {
-        max-height: 700px; /* Adjust the height for larger screens */
-    }
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 150px auto;
+  padding: 40px;
+}
+
+.contenedor-contacto {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 30vh;
+  padding: 20px;
+
+
+}
+
+.contacto img {
+  max-width: 500px;
+  float: left;
+  padding-right: 25px;
+
+}
+
+.contacto-text {
+  padding-left: 25px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.contacto-text span {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #d19c1f;
+}
+
+
+
+.maps {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  padding-bottom: 150px;
+}
+
+.maps iframe {
+  width: 1000px;
+  max-width: 1200px;
+  height: 500px;
+}
+
+
+
+/*NOSOTROS*/
+.contenedor-objetivo {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  background-image: linear-gradient(to left, rgba(0 0 0 /1), rgba(0 0 0 /.25)), url(../img/nosotros/objetivo.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 16px;
+}
+
+.contenedor-vision {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background-image: linear-gradient(to right, rgba(0 0 0 /1), rgba(0 0 0 /.25)), url(../img/nosotros/vision.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 16px;
+}
+
+.nosotros-text {
+  width: 30%;
+  text-align: center;
+  color: #fff;
+  margin: 5% 10%;
+  
+}
+
+.nosotros-text h1
+{
+  font-size: 3em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #d19c1f;
+}
+
+.nosotros-text p
+{
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+@media screen and (max-width:500px){
+  
+.contenedor-objetivo .contenedor-vision{
+  font-size: 12px;
+}
+.nosotros-text h1 {
+  font-size: 28px;
+}
+
+
+.equipo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 150px auto;
+  padding: 40px;
+}
+
+.contenedor-equipo{
+  width: 100vw;
+  max-width: 1200px;
+  min-height: 30vh;
+  padding: 20px;
+
+
+}
+
+.equipo img {
+  width:50px;
+  max-width: 500px;
+  float: left;
+  padding-right: 25px;
+
+}
+
+.equipo-text {
+  padding-left: 25px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.equipo-text span {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #d19c1f;
+}
+
+
+
+.maps {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  padding-bottom: 150px;
+}
+
+.maps iframe {
+  width: 1000px;
+  max-width: 1200px;
+  height: 500px;
+}
+
+}
+/*INICIO*/
+
+
+.contenedor-index {
+
+  height: 50vh;
+  margin: 5% 24%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.texto-index {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Lora', sans-serif;
+  font-weight: 500;
+  margin-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+
+
+
+.buttoncontact {
+
+  text-align: center;
+  background-color: #d19c1f;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin-bottom: 150px;
+  padding: 15px 35px;
+  display: inline-block;
+  cursor: pointer;
+  transition: .5s;
+  border-radius: 150px;
+
+
+}
+
+.buttoncontact a {
+
+  border: none;
+  text-decoration: none;
+  color: #fff;
+
+
+
+}
+
+.buttoncontact:hover {
+  background-color: #a7780d;
+  color: #fff;
+
+}
+
+
+@media(min-width: 768px) {
+  .buttoncontact {
+    padding: 15px 100px;
+  }
+
+}
+
+
+
+/* Medias */
+
+@media (min-width: 768px) {
+  .carouselExampleCaptions {
+    max-height: 700px;
+    /* Adjust the height for larger screens */
+  }
 }
