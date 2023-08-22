@@ -1,24 +1,39 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
 /* navBar */
 
 .navbar-nav .nav-link  {
     color:#b68d2c;
 }
 
+.navbar-brand img {
+  width: 50%;
+  padding: 0px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+}
 
 
 /* SERVICIOS */
 
 /* Penal */
 .heroBannerPenal {
- 
-  height: 50px;
   width: 100%;
   height: 60vh; /* Set the height you prefer */
   background-image: url("../img/servicios/heroBanner_penal.jpg");
 
- 
- 
 }
+
+
 
 .tituloPenal {
   position: absolute;
@@ -32,6 +47,79 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.tittlePenalCards {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+.containerCardsPenal {
+ 
+  margin-bottom: 100px; 
+
+}
+
+
+
+.cardsPenal {
+
+  margin-bottom: 150px;
+
+  
+}
+
+/* Familiar */
+
+.custom-card .card-body {
+  height: 65px;
+}
+
+.custom-card .card-body h5 {
+  margin-top: -8px;
+}
+
+
+.heroBannerFamiliar {
+  width: 100%;
+  height: 60vh; /* Set the height you prefer */
+  background-image: url("../img/servicios/heroBanner_familiar.jpg");
+
+}
+
+
+
+.tituloFamiliar {
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  left: 50%;
+  bottom: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.tittleFamiliarCards {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+.containerCardsFamiliar {
+ 
+  margin-bottom: 100px; 
+
+}
+
+.cardsFamiliar {
+
+  margin-bottom: 150px;
+
+  
+}
 
 
 
@@ -42,9 +130,10 @@
     color: #fff;
     text-align: center;
     padding: 12px;
-    position: fixed;
+    position:fixed;
     bottom: 0;
     width: 100%;
+    margin-top: 30px;
   }
   
   .footerArea ul {
@@ -77,4 +166,34 @@
     .carouselExampleCaptions {
         max-height: 700px; /* Adjust the height for larger screens */
     }
+}
+
+/* PenalMedia */
+@media (max-width: 767px) { /* mas = hasta... */
+  .heroBannerPenal .tituloPenal  {
+    height: 60vh;
+    width: 100%;
+    margin-top: 42px;
+    padding-left: 23px;
+    padding-right: 38px;
+    padding-top: 59px;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.8) 2%, rgba(0, 0, 0, 0.4) 2%);
+  }
+
+}
+
+
+/* FamiliarMedia */
+
+@media (max-width: 767px) { /* mas = hasta... */
+  .heroBannerFamiliar .tituloFamiliar  {
+    height: 60vh;
+    width: 100%;
+    margin-top: 42px;
+    padding-left: 23px;
+    padding-right: 38px;
+    padding-top: 59px;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.8) 2%, rgba(0, 0, 0, 0.4) 70%);
+  }
+
 }
