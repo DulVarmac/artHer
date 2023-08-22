@@ -90,28 +90,29 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  margin-top: 150px auto;
+  
   padding: 40px;
 }
 
 .contenedor-contacto {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
   min-height: 30vh;
   padding: 20px;
 
 
 }
 
-.contacto img {
+.fototelefono img {
   width: 100vw;
-  max-width: 400px;
+  max-width: 500px;
   float: left;
   padding-right: 25px;
+ 
 
 }
 
-.contacto-text {
+.contacto-text {position: relative;
   padding-left: 25px;
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
@@ -125,7 +126,16 @@
   color: #d19c1f;
 }
 
+.iconscontacto {
+  display: flex;
+ 
 
+}
+.iconscontacto img {
+  width: 50px;
+ 
+
+}
 
 .maps {
   width: 1000px;
@@ -156,7 +166,30 @@
   height: 500px;
 }
 
-  }
+.contacto-text {
+  font-size: 16px;
+}
+
+
+.contacto-text span {
+  font-size: 16px;
+ 
+}
+.iconscontacto img {
+  width: 40px;
+  
+ 
+}
+.fototelefono img {
+  width: 100%;
+  max-width: 500px;
+  float: center;
+  margin: 0px 10px;
+  padding-bottom: 30px;
+
+}
+
+}
 
 /*NOSOTROS*/
 .contenedor-objetivo {
@@ -395,6 +428,21 @@
   
   }
   }
+
+
+/* Whatsapp */
+.whatsapp img {
+  width: 60px;
+  height: 60px;
+  display:flex;
+  position: fixed;
+  right: 20px;
+  bottom: 120px;
+  align-items: center;
+  justify-content: left;
+  
+}
+
 
 
 /* Medias */
