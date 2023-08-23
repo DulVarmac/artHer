@@ -36,21 +36,11 @@ html {
 
 /* Penal */
 .heroBannerPenal {
-<<<<<<< HEAD
-=======
-
-  height: 50px;
->>>>>>> 6a08d14a302cfe4ee9d256f88df963800a1393d4
   width: 100%;
   height: 60vh;
   /* Set the height you prefer */
   background-image: url("../img/servicios/heroBanner_penal.jpg");
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 6a08d14a302cfe4ee9d256f88df963800a1393d4
 }
 
 
@@ -432,15 +422,11 @@ html {
   
     font-size: 18px;
     text-align: center;
-<<<<<<< HEAD
     padding: 12px;
     position:fixed;
     bottom: 0;
     width: 100%;
     margin-top: 30px;
-=======
-    
->>>>>>> 6a08d14a302cfe4ee9d256f88df963800a1393d4
   }
 
   .equipo-text h2 {
@@ -455,8 +441,7 @@ html {
   
   }
     }
-<<<<<<< HEAD
-}
+
 
 /* PenalMedia */
 @media (max-width: 767px) { /* mas = hasta... */
@@ -468,81 +453,10 @@ html {
     padding-right: 38px;
     padding-top: 59px;
     background: radial-gradient(circle, rgba(0, 0, 0, 0.8) 2%, rgba(0, 0, 0, 0.4) 2%);
-=======
-
-
-
-
-/*INICIO*/
-
-
-.contenedor-index {
-
-  height: 50vh;
-  margin: 5% 24%;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-
-}
-
-.texto-index {
-  text-align: center;
-  font-size: 24px;
-  font-family: 'Lora', sans-serif;
-  font-weight: 500;
-  margin-top: 50px;
-  padding-bottom: 50px;
-
-}
-
-
-
-.buttoncontact {
-
-  text-align: center;
-  background-color: #d19c1f;
-  border: none;
-  text-decoration: none;
-  color: #fff;
-  font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  margin-bottom: 150px;
-  padding: 15px 35px;
-  display: inline-block;
-  cursor: pointer;
-  transition: .5s;
-  border-radius: 150px;
-}
-
-.buttoncontact a {
-
-  border: none;
-  text-decoration: none;
-  color: #fff;
-
-}
-
-.buttoncontact:hover {
-  background-color: #a7780d;
-  color: #fff;
-
-}
-
-
-@media(min-width: 768px) {
-  .buttoncontact {
-    padding: 15px 100px;
-    font-size: 24px;
->>>>>>> 6a08d14a302cfe4ee9d256f88df963800a1393d4
   }
 
 }
 
-<<<<<<< HEAD
 
 /* FamiliarMedia */
 
@@ -558,14 +472,7 @@ html {
   }
 
 }
-=======
-@media screen and (max-width:700px){
-  
-  .texto-index {
-    font-size: 16px;
-  
-  }
-  }
+
 
 
 /* Whatsapp */
@@ -580,15 +487,3 @@ html {
   justify-content: left;
   
 }
-
-
-
-/* Medias */
-
-@media (min-width: 768px) {
-  .carouselExampleCaptions {
-    max-height: 700px;
-    /* Adjust the height for larger screens */
-  }
-}
->>>>>>> 6a08d14a302cfe4ee9d256f88df963800a1393d4
