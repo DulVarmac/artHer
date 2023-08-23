@@ -21,14 +21,6 @@ html {
 
 }
 
-.navbar-brand img {
-  width: 50%;
-  padding: 0px 0px 0px 0px;
-  display: flex;
-  align-items: center;
-}
-
-
 
 
 
@@ -171,15 +163,14 @@ html {
 
 
 
-/*Contacto*/
+/*CONTACTO*/
 
 .contacto {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  
-  padding: 40px;
+    padding: 40px;
 }
 
 .contenedor-contacto {
@@ -199,11 +190,20 @@ html {
  
 
 }
+.iconscontacto {
+  gap: 40px;
+  
+  }
 
-.contacto-text {position: relative;
+.contacto-text {
+  position: relative;
   padding-left: 25px;
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
 }
 
 
@@ -214,11 +214,8 @@ html {
   color: #d19c1f;
 }
 
-.iconscontacto {
-  display: flex;
- 
 
-}
+
 .iconscontacto img {
   width: 50px;
  
@@ -256,6 +253,9 @@ html {
 
 .contacto-text {
   font-size: 16px;
+  gap:15px;
+  align-items: center;
+  padding-left: 5px;
 }
 
 
@@ -263,6 +263,8 @@ html {
   font-size: 16px;
  
 }
+
+
 .iconscontacto img {
   width: 40px;
   
@@ -329,19 +331,7 @@ html {
   color: #fff;
 }
 
-@media screen and (max-width:500px){
-  
-.contenedor-objetivo {
-  font-size: 12px;
-}
-.contenedor-vision{
-  font-size: 12px;
-}
 
-.nosotros-text h1 {
-  font-size: 28px;
-}
-}
 
 .equipo {
   display: flex;
@@ -401,12 +391,24 @@ html {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   color: #d19c1f;
+
+}
+@media screen and (max-width:700px){
+  
+.contenedor-objetivo {
+  font-size: 12px;
+}
+.contenedor-vision{
+  font-size: 12px;
 }
 
-@media screen and (max-width:1000px){
-  
+.nosotros-text h1 {
+  font-size: 28px;
+}
+
  
   .foto img{
+    display: flex;
     width: 400px;
     max-width: 350px;
     padding-bottom: 40px;
@@ -421,12 +423,6 @@ html {
   .equipo-text h1 {
   
     font-size: 18px;
-    text-align: center;
-    padding: 12px;
-    position:fixed;
-    bottom: 0;
-    width: 100%;
-    margin-top: 30px;
   }
 
   .equipo-text h2 {
@@ -474,6 +470,84 @@ html {
 }
 
 
+
+
+
+/*INICIO*/
+
+
+.contenedor-index {
+
+  height: 50vh;
+  margin: 5% 24%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.texto-index {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Lora', sans-serif;
+  font-weight: 500;
+  margin-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+
+
+.buttoncontact {
+
+  text-align: center;
+  background-color: #d19c1f;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin-bottom: 150px;
+  padding: 15px 35px;
+  display: inline-block;
+  cursor: pointer;
+  transition: .5s;
+  border-radius: 150px;
+}
+
+.buttoncontact a {
+
+  border: none;
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.buttoncontact:hover {
+  background-color: #a7780d;
+  color: #fff;
+
+}
+
+
+@media(min-width: 768px) {
+  .buttoncontact {
+    padding: 15px 100px;
+    font-size: 24px;
+  }
+
+}
+
+@media screen and (max-width:700px){
+  
+  .texto-index {
+    font-size: 16px;
+  
+  }
+  }
 
 /* Whatsapp */
 .whatsapp img {
