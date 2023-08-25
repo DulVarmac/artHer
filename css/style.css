@@ -29,7 +29,7 @@ html {
 /* Penal */
 .heroBannerPenal {
   width: 100%;
-  height: 60vh;
+  height: 50vh;
   /* Set the height you prefer */
   background-image: url("../img/servicios/heroBanner_penal.jpg");
 
@@ -38,16 +38,45 @@ html {
 
 
 .tituloPenal {
+  
   position: absolute;
   text-align: center;
-  top: 35%;
-  left: 50%;
-  bottom: 40%;
-  transform: translate(-50%, -50%);
+  margin: 66px 0px 0px 166px;
+  padding: 0px 336px 0px 185px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  
 }
+
+.tituloPenal h1
+{
+  font-size: 3em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #d19c1f;
+}
+
+.tituloPenal h2
+{
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.tituloPenal p
+{ padding: 20px 200px;
+  font-size: 1.2em;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+
 
 .tittlePenalCards {
   text-align: center;
@@ -67,9 +96,22 @@ html {
 .cardsPenal {
 
   margin-bottom: 150px;
-
-  
 }
+
+
+.cardsPenal h5 {
+font-weight: 600;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.containerCardsPenal h2 {
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  
+  }
+  
+
 
 /* Familiar */
 
@@ -84,7 +126,7 @@ html {
 
 .heroBannerFamiliar {
   width: 100%;
-  height: 60vh; /* Set the height you prefer */
+  height: 50vh; /* Set the height you prefer */
   background-image: url("../img/servicios/heroBanner_familiar.jpg");
 
 }
@@ -94,15 +136,39 @@ html {
 .tituloFamiliar {
   position: absolute;
   text-align: center;
-  top: 35%;
-  left: 50%;
-  bottom: 40%;
-  transform: translate(-50%, -50%);
+  margin: 66px 0px 0px 166px;
+  padding: 0px 336px 0px 185px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
   text-align: center;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.tituloFamiliar h1
+{
+  font-size: 3em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #d19c1f;
+}
+
+.tituloFamiliar h2
+{
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.tituloFamiliar p
+{ padding: 20px 200px;
+  font-size: 1.2em;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
 .tittleFamiliarCards {
   text-align: center;
   margin-top: 25px;
@@ -122,6 +188,19 @@ html {
 
   
 }
+
+.cardsFamiliar h5 {
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  
+  }
+  
+  .containerCardsFamiliar h2 {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    
+    }
+    
 
 
 
@@ -560,4 +639,59 @@ html {
   align-items: center;
   justify-content: left;
   
+}
+
+/* PenalMedia */
+@media (max-width: 767px) { /* mas = hasta... */
+  .heroBannerPenal .tituloPenal  {
+    height: 50vh;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.8) 2%, rgba(0, 0, 0, 0.4) 2%);
+  }
+
+.tituloPenal p
+{ padding: 22px 22px;
+  font-size: 0.82em;  
+}
+
+.tituloPenal h1{
+  font-size: 2em;
+}
+
+.tituloPenal h2
+{  font-size: 1.5em;}
+
+}
+
+
+
+
+
+
+/* FamiliarMedia */
+
+@media (max-width: 767px) { /* mas = hasta... */
+  .heroBannerFamiliar .tituloFamiliar  {
+    height: 50vh;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding-left: 23px;
+    padding-right: 38px;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.8) 2%, rgba(0, 0, 0, 0.7) 2%);
+  }
+
+  .tituloFamiliar p
+{ padding: 22px 22px;
+  font-size: 0.82em;  
+}
+
+.tituloFamiliar h1{
+  font-size: 2em;
+}
+
+.tituloFamiliar h2
+{  font-size: 1.5em;}
 }
