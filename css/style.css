@@ -20,9 +20,18 @@ html {
 
 
 }
+.navbar-brand img {
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+}
 
-
-
+@media (max-width: 767px) { /* mas = hasta... */
+  .navbar-brand img {
+  width: 50%;
+ 
+}}
 
 /* SERVICIOS */
 
@@ -196,6 +205,7 @@ align-items: center;
   }
   
   .containerCardsFamiliar h2 {
+    
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     
@@ -318,11 +328,12 @@ align-items: center;
 @media screen and (max-width:1000px){
   
 .maps {
-  width: 700px;
+  display: flex;
+  width: 400px;
   max-width: 20%;
-  margin:0px 40px;
   align-items: center;
   padding-bottom: 150px;
+  margin: auto 50px;
 }
 .maps iframe {
   width: 480px;
@@ -331,10 +342,11 @@ align-items: center;
 }
 
 .contacto-text {
-  font-size: 16px;
+  font-size: 12px;
   gap:15px;
   align-items: center;
-  padding-left: 5px;
+  padding-top: 5px;
+  margin: 0px -25px;
 }
 
 
@@ -342,9 +354,16 @@ align-items: center;
   font-size: 16px;
  
 }
+ .iconscontacto {
+  width: 200px;
+  margin: 20px 0px;
 
+  
+ 
+}
 
 .iconscontacto img {
+  
   width: 40px;
   
  
@@ -472,24 +491,24 @@ align-items: center;
   color: #d19c1f;
 
 }
-@media screen and (max-width:700px){
+@media screen and (max-width:768px){
   
 .contenedor-objetivo {
-  font-size: 12px;
+  font-size: 11px;
 }
 .contenedor-vision{
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .nosotros-text h1 {
-  font-size: 28px;
+  font-size: 22px;
 }
 
  
   .foto img{
     display: flex;
-    width: 400px;
-    max-width: 350px;
+    width: 250px;
+    max-width: 300px;
     padding-bottom: 40px;
   }
 
