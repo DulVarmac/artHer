@@ -194,6 +194,7 @@ align-items: center;
 .cardsFamiliar {
 
   margin-bottom: 150px;
+ 
 
   
 }
@@ -211,7 +212,13 @@ align-items: center;
     
     }
     
+.card  {
 
+  margin-bottom: 30px;
+ 
+
+  
+}
 
 
 /* Footer */
@@ -583,6 +590,7 @@ align-items: center;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 100px;
 
 }
 
@@ -599,7 +607,7 @@ align-items: center;
 
 
 .buttoncontact {
-
+  
   text-align: center;
   background-color: #d19c1f;
   border: none;
@@ -617,7 +625,7 @@ align-items: center;
 }
 
 .buttoncontact a {
-
+width: 100%;
   border: none;
   text-decoration: none;
   color: #fff;
@@ -666,8 +674,8 @@ align-items: center;
     height: 50vh;
     width: 100%;
     margin: 0px 0px 0px 0px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 23px;
+    padding-right: 38px;
     background: radial-gradient(circle, rgba(0, 0, 0, 0.8) 2%, rgba(0, 0, 0, 0.4) 2%);
   }
 
